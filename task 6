@@ -1,0 +1,8 @@
+public class Main {
+    public static void getAgeCar(String carName, int year) {
+        System.out.println(carName + " " + year + " года выпуска");
+    }
+    public static void main(String[] args) {
+        getAgeCar("Buick D065", "2008");
+    }
+}
