@@ -1,0 +1,22 @@
+class Main {
+    public static void main(String[] args) {
+        String[] shopping = {"Яйца",
+                "Хлеб",
+                "Огурцы",
+                "Пекинская капуста",
+                "Мясо",
+                "Молоко",
+                "Что-нибудь к чаю"};
+
+        String swap = shopping[1];
+        shopping[1] = shopping[4];
+        shopping[4] = swap;
+
+        shopping[3] = "Белокочанная капуста";
+        
+        System.out.println("Изменения:");
+        System.out.println("2. " + shopping[1]);
+        System.out.println("4. " + shopping[3]);
+        System.out.println("5. " + shopping[4]);
+    }
+}
