@@ -1,0 +1,13 @@
+class Main {
+    public static void main(String[] args) {
+        int[] waterConsumption = new int[3];
+
+        waterConsumption[0] = 200;
+        waterConsumption[1] = 400;
+        waterConsumption[2] = 150;
+
+        System.out.println(waterConsumption[0]);
+        System.out.println(waterConsumption[1]);
+        System.out.println(waterConsumption[2]);
+    }
+}
