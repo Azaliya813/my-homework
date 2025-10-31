@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args) {
+        int days = 30;
+        int queueNumber = 7;
+        int appointmentNumber = 5;
+        for (int day = 1; day <= days; day++) {
+            System.out.println("День " + day);
+
+            if (day % 2 == 0) {
+                for (int j = 1; j <= queueNumber; j++) {
+                    System.out.println(" Пациент по очереди: " + j);
+                }
+            } else {
+                for (int j = 1; j <= appointmentNumber; j++) {
+                    System.out.println(" Пациент по записи: " + j);
+                }
+            }
+
+            System.out.println("На сегодня всех вылечили");
+        }
+            System.out.println("Какой насыщенный выдался месяц!");
+    }
+}
