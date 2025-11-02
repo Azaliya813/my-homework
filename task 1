@@ -1,4 +1,15 @@
 public class Main {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public static void printSpeed0flight() {
+        System.out.println("299792458 м/с");
+    }
+
+    public static void main(String[] args) {
+        printSpeed0flight();
+=======
+>>>>>>> dz-1
 //1.1
     public void printSpeedingWarning(int speedLimit, int currentSpeed) {
         if (currentSpeed - speedLimit >= 20) {
@@ -43,5 +54,9 @@ public class Main {
 
        
         System.out.println(main.processTrafficLightSignal("синий"));
+<<<<<<< HEAD
+=======
+>>>>>>> main
+>>>>>>> dz-1
     }
 }

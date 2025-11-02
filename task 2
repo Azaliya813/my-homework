@@ -1,4 +1,12 @@
 public class Main {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public void sayHello(String name) {
+        System.out.println("Привет! Меня зовут " + name);
+        System.out.println("Я начинающий автоматизатор");
+=======
+>>>>>>> dz-1
     public static void main(String[] args) {
         int streetNumber = 7;
         int houseNumber = 4;
@@ -8,5 +16,9 @@ public class Main {
                 System.out.println("Улица " + i + " дом " + j + " - подарок получен.");
             }
         }
+<<<<<<< HEAD
+=======
+>>>>>>> main
+>>>>>>> dz-1
     }
 }
