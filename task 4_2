@@ -1,0 +1,17 @@
+import java.util.Random;
+
+class Main {
+    public static void main(String[] args) {
+        String[] applianes = {"Стиральная машина", "Сушильная машина", "Холодильник",
+                "Утюг", "Посудомоечная машина", "Микроволновая печь", "Варочная поверхность",
+                "Духовой шкаф", "Блендер", "Миксер"};
+
+        String outdatedPromotional = applianes[0];
+
+        applianes[0] = applianes[7];
+
+        applianes[7] = outdatedPromotional;
+
+        System.out.println("Распродажа -20% на категорию месяца: " + applianes[0]);
+    }
+}
