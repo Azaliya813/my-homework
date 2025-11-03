@@ -1,0 +1,10 @@
+public class Main {
+    public void sayHello(String name) {
+        System.out.println("Привет! Меня зовут " + name);
+        System.out.println("Я начинающий автоматизатор");
+    }
+
+    public static void main(String[] args) {
+        sayHello("Азалия");
+    }
+}

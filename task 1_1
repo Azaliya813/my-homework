@@ -1,0 +1,9 @@
+public class Main {
+    public static void printSpeed0flight() {
+        System.out.println("299792458 м/с");
+    }
+
+    public static void main(String[] args) {
+        printSpeed0flight();
+    }
+}
