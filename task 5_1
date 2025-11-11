@@ -1,0 +1,24 @@
+abstract class Payment {
+       abstract void pay();
+}
+
+class CashPayment extends Payment {
+    @Override
+    void pay() {
+       System.out.println("Плачу наличными");
+    }
+    public static void main(String[] args) {
+        Payment cash = new CashPayment();
+        Payment card = new CreditCardPayment();
+
+        cash.pay();
+        card.pay();
+    }
+}
+
+class CreditCardPayment extends Payment {
+    @Override
+    void pay() {
+       System.out.println("Плачу картой");
+    }
+}
